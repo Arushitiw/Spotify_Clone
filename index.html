@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <title>Spotify</title>
+</head>
+<body>
+   <nav>
+   <div> <img src="images/logo.png" alt=""><span>Spotify</span></div>
+    <ul>
+        
+        <li><a href="">Home</a></li>
+        <li><a href="">About</a></li>
+        <li><a href="">Playlist</a></li>
+        <li><i class="fa-brands fa-searchengin"></i></li>
+       </ul>
+            
+          </nav>
+          
+       <div class="upper">
+        <div class="songbanner" data-song="jhumka">
+            <img  class="banner" id="jhumka" src="./images/jhumka.png" alt="">
+         <div class="title">
+            <h5 class="songname">Jhumka</h5>
+            <i  class="fa-solid fa-play playbtn"></i>
+         </div>
+        </div>
+
+        <!--second song-->
+        <div class="songbanner" data-song="iraaday">
+            <img  class="banner" id="iraaday" src="./images/iraaday.png" alt="">
+         <div class="title">
+            <h5 class="songname">Iraaday</h5>
+            <i  class="fa-solid fa-play playbtn"></i>
+         </div>
+        </div>
+
+        <!--third song-->
+        <div class="songbanner" data-song="withyou">
+            <img  class="banner"  id="withyou" src="./images/withyou.png" alt="">
+         <div class="title">
+            <h5 class="songname">With you</h5>
+            <i  class="fa-solid fa-play playbtn"></i>
+         </div>
+        </div>
+
+        <!--fourth song-->
+        <div class="songbanner" data-song="baarishein">
+            <img  class="banner"  src="./images/baarishein.png" alt="">
+         <div class="title">
+            <h5 class="songname">Baarishein</h5>
+            <i  class="fa-solid fa-play playbtn"></i>
+         </div>
+        </div>
+
+        <!--fifth song-->
+        <div class="songbanner" data-song="babambole">
+            <img  class="banner" id="babambole" src="./images/babam bole.png" alt="">
+         <div class="title">
+            <h5 class="songname">Babam Bole</h5>
+            <i  class="fa-solid fa-play playbtn"></i>
+         </div>
+        </div>
+        
+        <!--sixth song-->
+        <div class="songbanner" data-song="Sankatmochan">
+            <img  class="banner" id="sankatmochan" src="./images/sankatmochan.png" alt="">
+         <div class="title">
+            <h5 class="songname">Sankat Mochan</h5>
+            <i class="fa-solid fa-play playbtn"></i>
+         </div>
+        </div>
+
+       </div>
+          <div class="bottom">
+            <input type="range" id="progressbar" min="0" max="100" value="0">
+            <div class="icons">
+            <i class="fa-solid fa-backward"></i>
+            <i class="fa-solid fa-play" id="masterplay"></i>
+            <i class="fa-solid fa-forward"></i>
+           
+            </div>
+        
+        </div>
+          
+    <script src="./script.js"></script>
+</body>
+</html>

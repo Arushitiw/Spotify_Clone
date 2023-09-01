@@ -1,0 +1,104 @@
+body{
+    background-color: black;
+}
+*
+{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    color: white;
+    
+}
+nav
+{
+display: flex;
+gap:30%;
+align-items: center;
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+ gap:30%;
+   list-style: none;
+}
+li{
+    font-size: 20px;
+    font-family:monospace;
+    font-weight: 500;
+}
+li:hover{
+    font-size: 22px;
+    color:crimson;
+    cursor:pointer;
+}
+a
+{
+color:white;
+text-decoration: none;
+
+}
+ img
+{
+    height: 54px;
+    width: 52px;
+}
+span{
+    font-size: 23px;
+    font-weight: 600;
+    color:white ;
+    margin-left: 10px;
+}
+
+.bottom
+{
+position: sticky;
+height: 120px;
+background-color:rgb(51, 50, 50);
+display: flex;
+justify-content: center;
+align-items: center;
+margin-top: 13%;
+flex-direction: column;
+
+}
+#progressbar
+{
+    width: 60vw;
+    height: 20vh;
+    cursor: pointer;
+}
+.icons
+{
+    display:flex;
+    cursor: pointer;
+    margin-bottom: 30px;
+    justify-content: center;
+    gap:30px
+}
+.upper
+{
+    display: flex;
+    padding-top:40px;
+    padding-left: 50px;
+}
+.banner
+{
+    height:25vh;
+    width: 10vw;
+}
+.title
+{
+    display: flex;
+    gap:30px;
+    margin-top: 10px;
+}
+.playbtn
+{
+    cursor: pointer;
+    margin-top: 10px;
+}
+.songbanner
+{
+    padding: 35px;
+    
+}
